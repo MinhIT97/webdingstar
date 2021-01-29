@@ -1,0 +1,21 @@
+.navBar {
+    display: flex;
+    padding: 15px 0;
+    color: $color_text;
+    background-color: $main_color;
+    justify-content: space-around;
+}
+.navBarRight {
+    margin: 0;
+    ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    li {
+        list-style: none;
+        padding: 0 15px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bolder;
+    }
+}

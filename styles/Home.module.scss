@@ -1,0 +1,12 @@
+@import '../styles/variables.scss';
+@import "../src/components/header/style.scss";
+@import "../src//components/navBar/styles.scss";
+@import "../src/components/footer/styles.scss";
+
+
+
+.defaultBbackground {
+    background-color: $color_text;
+}
+
+
